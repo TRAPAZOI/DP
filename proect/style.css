@@ -314,3 +314,43 @@ body {
     opacity: 1;
     position: relative;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header a {
+        margin: 0 10px;
+    }
+    .image-block {
+        width: 45%;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+
+    header a {
+        margin: 0 10px; /* Меньшие отступы для планшетов */
+    }
+
+}
+@media (max-width: 480px) {
+    .image-block {
+        width: 100%;
+    }
+    .footer-content nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    header a {
+        margin: 5px 0;
+    }
+    header a {
+        margin: 10px 0; /* Вертикальные отступы для мобильных устройств */
+        display: block; /* Размещаем ссылки вертикально */
+    }
+
+
+}
